@@ -1,0 +1,1318 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		000FB9EDA233684DCE3C0D776F682440 /* Array+HeroModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E5C1900A554BEB295F43569BEB137F /* Array+HeroModifier.swift */; };
+		0703CE26B7245672B91E0B78E1281E44 /* HeroTransition+UIViewControllerTransitioningDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B157273BAAC5950A691275A370D2DF0 /* HeroTransition+UIViewControllerTransitioningDelegate.swift */; };
+		0732637E2D54431D0F2680D9610CD78F /* KeyboardLayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9041A559143820B1DF42B243C698BF84 /* KeyboardLayoutConstraint.swift */; };
+		0A3AA2E0FDAF8A8858240069811996EA /* Lexer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DA51DCA668DB8D4CBE128B88B6BF48 /* Lexer.swift */; };
+		0B83D6CB69842FB07CA7D692FF61919E /* Pods-Azkary-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CFE6F23C29341BE3F7AC5F843417F280 /* Pods-Azkary-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0BA90CA2DDA9471E59A1F48AFBDDB3ED /* LoadingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A281D70BE2979B01A5CBC77A478942F /* LoadingView.xib */; };
+		0C8C91A946F029E0110E06480F600A47 /* HeroTransition+CustomTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A3BEF37C1FB98C52F41E3E877790F5 /* HeroTransition+CustomTransition.swift */; };
+		0E2025F3049EB290C9C701EB7697FD83 /* HeroTransition+Animate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72CF6C07BDEA4EB0E05C0ABC17094186 /* HeroTransition+Animate.swift */; };
+		1045F5952C216156A75B376D1D604298 /* SpringButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3675FE6C6EBA639693A36CADDF3714 /* SpringButton.swift */; };
+		143BC48EA7B427B9F43FBF38C1209904 /* HeroViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55ACAD979EBA39759B8CADCE65674797 /* HeroViewControllerDelegate.swift */; };
+		1500B78FC44AAED561BD90AF696705F0 /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B18E0B86A1618A1B14DB61B46B53FC4 /* SoundPlayer.swift */; };
+		1CE44042F73BA78CD14C0B12D60A446E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4C6D41C20CA1B2F417528568D7645B0 /* UIKit.framework */; };
+		1D70037A0B3E4A3DDAAEE179B6ABB071 /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8041E81320BA391D6A5B30F7C5977664 /* DesignableView.swift */; };
+		28ED22D50E807703BDE53652BDB3BDA0 /* Hero-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B6232F426797A1B48CFA89E825F7E9B /* Hero-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		297F85DE0BF70E0BBCFC55A4EABE3AF7 /* ViewAnimator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 981362477273C923E372468132F3DA8E /* ViewAnimator-dummy.m */; };
+		29B7B49A4477F2FE45143E568C022B23 /* Misc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169AAB5E6E12E97DF0A802A410CF3FCC /* Misc.swift */; };
+		29CE9DBD65A494DB313F2991C90787A0 /* DesignableImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1184FDC18623153A639E8881A43E5E /* DesignableImageView.swift */; };
+		2AC30876C833990D744C30FF47B32EE8 /* UICollectionView + ViewAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BFB5B725389EE563204A5C625441B0F /* UICollectionView + ViewAnimator.swift */; };
+		2B12DF1E24A75E8F8EC5556B37FA1F28 /* Spring-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F9F3C6C146D5877B23CCAD7375AB81B0 /* Spring-dummy.m */; };
+		2F24C371BA4C2962F44ACC8E17667583 /* HeroCompatible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2AD917D0545A21BE6D8B807F3C28C9 /* HeroCompatible.swift */; };
+		352C340763B400F31C26159F463D4B64 /* TransitionZoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = E042B681060A8D44D8054F9BADF6D3A1 /* TransitionZoom.swift */; };
+		37C289CF48713DAB98845988FF35632C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A4A29FA4154ED4AF8921F79E1F28488 /* Foundation.framework */; };
+		38297E6B86106DEF51F853B19A64FEFD /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14FB0BC4BCD240F36C82E3E7C5C63AD5 /* QuartzCore.framework */; };
+		38406719BDA0D1C99B94A33EB1BF2AA1 /* HeroTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 469333A62B39379E6A0F86F45F4C61A7 /* HeroTransition.swift */; };
+		3D24A0293788B6740CA06D127A930F02 /* UITableView + ViewAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60DD072437AD052A66569FAE98638EC /* UITableView + ViewAnimator.swift */; };
+		3E1CED50F44E5D491DCD5003372DBF81 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F30C8111592572F777B28A483B021FB0 /* Images.xcassets */; };
+		44A41A19C4EBB3E69F800EF54C82A661 /* Direction.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD69BA849C8A598E0CA0585FAE81F418 /* Direction.swift */; };
+		4641B14031D2FF6603A1AB1AE8A81872 /* AsyncImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 700EA86E9A0419C1270E6966938C783B /* AsyncImageView.swift */; };
+		46935F12196B8113019740EA716549BB /* ViewAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068C081D803B4FEF3165DFE4F88F4749 /* ViewAnimator.swift */; };
+		46E1E5F755E08FAC7FC8BE0BEE146465 /* DesignableLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 365DD95BD8E1D331AEFBE4A06555522E /* DesignableLabel.swift */; };
+		4C0109B9064995D017EF8BA9471065BD /* HeroPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D0D75E2B450A887AE670344B729052C /* HeroPlugin.swift */; };
+		4DD18CA1B0628DA289B294D2106D55A3 /* HeroTransition+Interactive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0598842946CCE859DF2F6519F545A1 /* HeroTransition+Interactive.swift */; };
+		50F85BD08590CA9B3A7A04C5E94C9993 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A4A29FA4154ED4AF8921F79E1F28488 /* Foundation.framework */; };
+		55765FA3526C83F9EAC8A71283051143 /* Spring-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 15ABCC2B086A1E95292D29327A1A816B /* Spring-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		561B43E02C4CC483EEAC28AE2C961D3D /* HeroStringConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D9DFBC65662F790F137F5405C621C1 /* HeroStringConvertible.swift */; };
+		565C22E5071430F1DB95C884B2CF9D00 /* HeroViewPropertyViewContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82633EA8AD47230A46EF7E0FF263B8B7 /* HeroViewPropertyViewContext.swift */; };
+		58CDDC315D072611DC4E0E8D7B2B399B /* Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42F74700D32A38031FF947CBACB377C /* Animation.swift */; };
+		596395B6FA3AB7BE5E2986C1057FFB51 /* CAMediaTimingFunction+Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6ADDFAF6AEC0B513B1E7F99CCE2619 /* CAMediaTimingFunction+Hero.swift */; };
+		5D561331EDDD8446C2C74304EF534F0B /* HeroTransitionState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B18765AB4FD7DC49C342AF2A523F287 /* HeroTransitionState.swift */; };
+		5E7FB82A077840DF34C3953BC806F8F4 /* TransitionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84ECD6243267716E7117353D66E4980 /* TransitionManager.swift */; };
+		5FD7F44CF9CD3B08A62E4E6B6BB68030 /* SpringLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9AD2CC57DF2AA64749644A2AC2610CF /* SpringLabel.swift */; };
+		611B67BEEBA7FB3983E8D9AC3796A551 /* HeroDefaultAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FDDFD6824224DC2958D626B6C76CF9 /* HeroDefaultAnimator.swift */; };
+		63D62B669C1B1D76B8FA2AEE51AF2863 /* HeroTransition+UITabBarControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C301D182746F79EA1EBBAAC676216AB /* HeroTransition+UITabBarControllerDelegate.swift */; };
+		6C72E988C04C3F87D6C0306DF85C4705 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A4A29FA4154ED4AF8921F79E1F28488 /* Foundation.framework */; };
+		7077E7A72EB1E524F2EF25029B712F2F /* MatchPreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 737E245D095A690385E140A65EC99B02 /* MatchPreprocessor.swift */; };
+		711025B8E5C65F47055B8BDE2D7143B2 /* UnwindSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0249CB07C2C785CA9995D4F230ED9B /* UnwindSegue.swift */; };
+		76259741C02A8C73A3015C5D2DA496CA /* HeroModifier+HeroStringConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CDDAB109E6E9B14ACF383083303F643 /* HeroModifier+HeroStringConvertible.swift */; };
+		783190536DC8297B50B399D8250F2032 /* HeroTransition+UINavigationControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADE268987F3FB8A65138117AF613BC8 /* HeroTransition+UINavigationControllerDelegate.swift */; };
+		796621B5A6EBDE53FA99F5555B0F59D7 /* SpringTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4858E6ACBBE38F9336D698EC5334A7D /* SpringTextView.swift */; };
+		7CEA02BEDE5F0BF8FD0A0290B5F5ED9C /* DesignableTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCE7BD6489AF2C192386DBDA3FF4C25 /* DesignableTextView.swift */; };
+		80538854F50E894E283C87058249C10C /* SourcePreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 987948B007F6CFF041C1EE435CCD27B8 /* SourcePreprocessor.swift */; };
+		8267702DC8728FA8827B0E9F5850D564 /* HeroModifier+Advanced.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E917AA42D83E60FE40F25FE0C4A0C3 /* HeroModifier+Advanced.swift */; };
+		85908A69CE5A0C54998A6D597BDB062F /* UIColor+HexString.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0073115348C61928B0930849E765A06 /* UIColor+HexString.swift */; };
+		8675FAF0C389A827D865B4231B097350 /* CG+Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7685375E12983B72E91381CDBE1D6F93 /* CG+Hero.swift */; };
+		86E16112E3DA618AA6046E09E11B1FD5 /* ViewAnimator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AE3F391173EEFFB8C91F5BA1ACD0311 /* ViewAnimator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		86F6100A3164708D9449C570776E4A53 /* HeroDebugView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3973745F86118362568F23673A66268E /* HeroDebugView.swift */; };
+		9140B6366B10B74C366EBF342680579E /* SpringImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90A2E00975C6AD2A91F9611D861F309 /* SpringImageView.swift */; };
+		93591D9AD5D74959575DAA966898CEEE /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BCBE616614CFA2D7E73955BE27B61D6 /* BlurView.swift */; };
+		971DE19A2425C011DEA7F234EF9DFB3D /* BasePreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB202786EA939FC72D443F0F7EC3627F /* BasePreprocessor.swift */; };
+		981E678C694BD6CB6E47750023C41356 /* CascadePreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCAE8F775B424E94E6936711E8C0D9A9 /* CascadePreprocessor.swift */; };
+		9BF3A86AFAFDA9B4C5150324F3DFD0D3 /* Nodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0B50D6D857117139A354254CFB8310 /* Nodes.swift */; };
+		A655FA3A985F470092D34931CAA9B1D3 /* DesignableTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD585C79E72DA49C6EAC5BB6FCC294DB /* DesignableTextField.swift */; };
+		A6CED5C2055858A15DA2A89283BE0946 /* SpringTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881C539B52FCD7351C2370DEF7E369EA /* SpringTextField.swift */; };
+		A7EA1BA19DDD7C4C829D4E8BCB133B5D /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB4C561B1DEE51D66631E5EA0596935 /* SwiftSupport.swift */; };
+		AB333ACA619804B14FDACD4892AD0F33 /* DispatchQueue+Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830D08129875CF7C3AC5F63C59FD16B4 /* DispatchQueue+Hero.swift */; };
+		AEDEEFE01BDC994BB676D0C6C4EA0B4F /* HeroAnimatorViewContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CCA223324A5FC97031D391401D4515 /* HeroAnimatorViewContext.swift */; };
+		B4A5070619398ABCE3153716A8B1FD39 /* DefaultAnimationPreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3385C288850E64C7F0C8693093D85A /* DefaultAnimationPreprocessor.swift */; };
+		B6AE25C51BED9621BBA67FE397452160 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96754CFEA1FB66AFA311EA57625659A /* Parser.swift */; };
+		B761609304C53DD165E21D6979C187FA /* HeroModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5AA9A4E72347C8103DF23ED8D5CFD67 /* HeroModifier.swift */; };
+		BAA6B8A757D1C7D80877064966A6F57D /* HeroContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70D9F0074CBCB8ACE2377B86D5BDD125 /* HeroContext.swift */; };
+		BD6DCC1280FBF8802E8256E27E72608D /* ViewAnimatorConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF0ADE4CD7358702185130C62F91AC1 /* ViewAnimatorConfig.swift */; };
+		BE63C2C8EC7B15BE0848D01ED7125E86 /* Hero-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 20347326EA50CCB8BCDF999627220BCB /* Hero-dummy.m */; };
+		C027055833A0B6578D37DFBBF2AED005 /* SpringView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57DA5D9F0508608FEE5899A1E21F82FB /* SpringView.swift */; };
+		C404ABC8391D8C5678272EA2B7149664 /* HeroProgressRunner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C301CD3D511877667FC060A4C00F868 /* HeroProgressRunner.swift */; };
+		C6EEAC88D46661939CEC80B9C757D646 /* HeroCoreAnimationViewContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = E07AEDCA6950D3394E689C5C344EA1F6 /* HeroCoreAnimationViewContext.swift */; };
+		C70BBAB83307287049F532A4EB9CCEF1 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D61E5F523619B74B778720ABF5C357F /* ImageLoader.swift */; };
+		CC60AF46BE0EB20F50602AD2EDFE953F /* DesignableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B644036B0B301543B33C7F1ACCE53C /* DesignableButton.swift */; };
+		CFA425E34FFEF752EA7CB11A55F08A9E /* AutoTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA440F25F05471EC48E3D11092011CF6 /* AutoTextView.swift */; };
+		D0F527FECD9CDE6E33868A911863F3A2 /* HeroTransition+Complete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CEA73087E34E155295B880D7C99E0B /* HeroTransition+Complete.swift */; };
+		D5B6C3D9C30E853925EDFD6F6B2F735A /* UIViewController+Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA51281E4ED3D3756E36E40D5E405A3A /* UIViewController+Hero.swift */; };
+		D6F9651ADAC53B92DCAAB44816333C03 /* AsyncButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20250A9BB46329158C6D918EC0659F4 /* AsyncButton.swift */; };
+		D99F7D4FA69590F4F4DE4234BC19616A /* UIView+Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 700A87C2BDDEF63C4E131B76FE9E7BFF /* UIView+Hero.swift */; };
+		DB289656E21B490DA80311AD52DBA5C0 /* HeroTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B0711B6DDE33CFC31B22A78FCAC29E /* HeroTypes.swift */; };
+		DC2F67DD3163291EB40DC85B0D8BFD12 /* HeroTransition+Start.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4710FC8E97A58D59094100756305A88B /* HeroTransition+Start.swift */; };
+		DCEB1D1D97936446FFCC775B87820D76 /* CALayer+Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31242FFD1D3067842E215AC755F0872 /* CALayer+Hero.swift */; };
+		DD6F354D687662E88A8E9B75ADF0EE95 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACC524D69753A1CFD1CE6337E457379 /* CoreMedia.framework */; };
+		E05D3E5962B58A2AE76850E534A24C7B /* UIKit+Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 469D6C4D4602E27C29D5B7E56A60B81E /* UIKit+Hero.swift */; };
+		E14591ACB8E8B67FA53C24B992997EB6 /* ConditionalPreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DD7AA4CA62F0819A5ADFC8E7DC7436 /* ConditionalPreprocessor.swift */; };
+		E259639E8D936042ECD20840FBBD4EC8 /* HeroTargetState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC1F00ABFF996C195C2C1C0446C0E4B /* HeroTargetState.swift */; };
+		E49A797A5DFC4942633D9CC508841AAB /* Pods-Azkary-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 861AC3650661F4BAD686D44A67B03B68 /* Pods-Azkary-dummy.m */; };
+		E5854E6A53A8B1ABB1312522029212C6 /* DesignableTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A01386529C8BF37DAF638EDB4B81BE /* DesignableTabBarController.swift */; };
+		E61861448B6C2D9EB4610DF5532BA204 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7358C8B19791E74444E80D27004754A /* LoadingView.swift */; };
+		E65E75D9FF3AD6FD21154DE84D1AE4FA /* IgnoreSubviewModifiersPreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA82D193356E49BC7EA3C1E5615F0CF9 /* IgnoreSubviewModifiersPreprocessor.swift */; };
+		EA658ED3170B393E01430E31E8482A8C /* SpringAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C40362364BB02F8770FE992679256FF /* SpringAnimation.swift */; };
+		ED0E23C86B292C335FE79BE942EFB2ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A4A29FA4154ED4AF8921F79E1F28488 /* Foundation.framework */; };
+		F44E1B920D6638069D7450CA3773C0FD /* Spring.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7FA39CB9C36577E7482D205CEDB64B /* Spring.swift */; };
+		F4DD189E36C289688DD2187E0A38D96F /* Regex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD61A42F174224C05A1B3887A3146A9 /* Regex.swift */; };
+		F67D13F1DF0DD6F7271E3B94CCA8AC22 /* HeroDebugPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4587E0233ADF56B0A69B1E5EDD2BDD /* HeroDebugPlugin.swift */; };
+		FB5B2EF00978168F84353DD89B808567 /* AnimationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA133BD53E9F1342EABFC9BB0F4CBE5 /* AnimationType.swift */; };
+		FCD1BDD7A5206F43EE5EA0F116BFD7BE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F6F55E3F02E41FD9D4E4815723ABFBD /* CoreGraphics.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		08FE6200D96A56C7834532BD5EAC3352 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3893AEA4D7DBB9A086E889FC469132D;
+			remoteInfo = Hero;
+		};
+		2A76E4E2FE6E085B21025267C663C7EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A062DD8462AB228A88272FF6B09535E9;
+			remoteInfo = Spring;
+		};
+		B1172A445734F3C035732BB874DCD72A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91BFC2827E7E6E2B51AB2CFF58AC6317;
+			remoteInfo = ViewAnimator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0189DA19753CB5A9F2BB26AD2FED3140 /* Pods-Azkary.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Azkary.debug.xcconfig"; sourceTree = "<group>"; };
+		068C081D803B4FEF3165DFE4F88F4749 /* ViewAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ViewAnimator.swift; path = ViewAnimator/Classes/ViewAnimator.swift; sourceTree = "<group>"; };
+		0D61E5F523619B74B778720ABF5C357F /* ImageLoader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageLoader.swift; path = Spring/ImageLoader.swift; sourceTree = "<group>"; };
+		13E778F4B833EE5D7ABE882406A8215E /* Hero.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Hero.framework; path = Hero.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		14FB0BC4BCD240F36C82E3E7C5C63AD5 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		15ABCC2B086A1E95292D29327A1A816B /* Spring-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Spring-umbrella.h"; sourceTree = "<group>"; };
+		169AAB5E6E12E97DF0A802A410CF3FCC /* Misc.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Misc.swift; path = Spring/Misc.swift; sourceTree = "<group>"; };
+		20347326EA50CCB8BCDF999627220BCB /* Hero-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Hero-dummy.m"; sourceTree = "<group>"; };
+		211175FD6993D3D2B8E9FF76FA60046A /* Pods_Azkary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Azkary.framework; path = "Pods-Azkary.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		21B5B26F9C9E0C72D1DF12EA484A7830 /* Pods-Azkary.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Azkary.release.xcconfig"; sourceTree = "<group>"; };
+		22CCA223324A5FC97031D391401D4515 /* HeroAnimatorViewContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroAnimatorViewContext.swift; path = Sources/Animator/HeroAnimatorViewContext.swift; sourceTree = "<group>"; };
+		26B3BF0AC5173CBF5B4A46E770816645 /* Hero-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Hero-Info.plist"; sourceTree = "<group>"; };
+		2B18765AB4FD7DC49C342AF2A523F287 /* HeroTransitionState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroTransitionState.swift; path = Sources/Transition/HeroTransitionState.swift; sourceTree = "<group>"; };
+		2BFB5B725389EE563204A5C625441B0F /* UICollectionView + ViewAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UICollectionView + ViewAnimator.swift"; path = "ViewAnimator/Classes/Extensions/UICollectionView + ViewAnimator.swift"; sourceTree = "<group>"; };
+		2C2AD917D0545A21BE6D8B807F3C28C9 /* HeroCompatible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroCompatible.swift; path = Sources/HeroCompatible.swift; sourceTree = "<group>"; };
+		309F9A1F56E4F67EDA7F02BA89936BDF /* Hero.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Hero.xcconfig; sourceTree = "<group>"; };
+		365DD95BD8E1D331AEFBE4A06555522E /* DesignableLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DesignableLabel.swift; path = Spring/DesignableLabel.swift; sourceTree = "<group>"; };
+		38C926C5B364FAD9C0A5E6D51F208771 /* ViewAnimator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ViewAnimator.modulemap; sourceTree = "<group>"; };
+		3973745F86118362568F23673A66268E /* HeroDebugView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroDebugView.swift; path = "Sources/Debug Plugin/HeroDebugView.swift"; sourceTree = "<group>"; };
+		3A281D70BE2979B01A5CBC77A478942F /* LoadingView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = LoadingView.xib; path = Spring/LoadingView.xib; sourceTree = "<group>"; };
+		3B6232F426797A1B48CFA89E825F7E9B /* Hero-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Hero-umbrella.h"; sourceTree = "<group>"; };
+		3BC1F00ABFF996C195C2C1C0446C0E4B /* HeroTargetState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroTargetState.swift; path = Sources/HeroTargetState.swift; sourceTree = "<group>"; };
+		3F136A20734AD27CC397572C4E62ADCE /* Spring.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Spring.framework; path = Spring.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		469333A62B39379E6A0F86F45F4C61A7 /* HeroTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroTransition.swift; path = Sources/Transition/HeroTransition.swift; sourceTree = "<group>"; };
+		469D6C4D4602E27C29D5B7E56A60B81E /* UIKit+Hero.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIKit+Hero.swift"; path = "Sources/Extensions/UIKit+Hero.swift"; sourceTree = "<group>"; };
+		4710FC8E97A58D59094100756305A88B /* HeroTransition+Start.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HeroTransition+Start.swift"; path = "Sources/Transition/HeroTransition+Start.swift"; sourceTree = "<group>"; };
+		4D0598842946CCE859DF2F6519F545A1 /* HeroTransition+Interactive.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HeroTransition+Interactive.swift"; path = "Sources/Transition/HeroTransition+Interactive.swift"; sourceTree = "<group>"; };
+		55ACAD979EBA39759B8CADCE65674797 /* HeroViewControllerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroViewControllerDelegate.swift; path = Sources/HeroViewControllerDelegate.swift; sourceTree = "<group>"; };
+		57DA5D9F0508608FEE5899A1E21F82FB /* SpringView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpringView.swift; path = Spring/SpringView.swift; sourceTree = "<group>"; };
+		5A4A29FA4154ED4AF8921F79E1F28488 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5B18E0B86A1618A1B14DB61B46B53FC4 /* SoundPlayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SoundPlayer.swift; path = Spring/SoundPlayer.swift; sourceTree = "<group>"; };
+		5C1FA6F35D73431CB105260E5A0E5309 /* Spring.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Spring.modulemap; sourceTree = "<group>"; };
+		5C6ADDFAF6AEC0B513B1E7F99CCE2619 /* CAMediaTimingFunction+Hero.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CAMediaTimingFunction+Hero.swift"; path = "Sources/Extensions/CAMediaTimingFunction+Hero.swift"; sourceTree = "<group>"; };
+		5D0D75E2B450A887AE670344B729052C /* HeroPlugin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroPlugin.swift; path = Sources/HeroPlugin.swift; sourceTree = "<group>"; };
+		62B0711B6DDE33CFC31B22A78FCAC29E /* HeroTypes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroTypes.swift; path = Sources/HeroTypes.swift; sourceTree = "<group>"; };
+		6B157273BAAC5950A691275A370D2DF0 /* HeroTransition+UIViewControllerTransitioningDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HeroTransition+UIViewControllerTransitioningDelegate.swift"; path = "Sources/Transition/HeroTransition+UIViewControllerTransitioningDelegate.swift"; sourceTree = "<group>"; };
+		6B4587E0233ADF56B0A69B1E5EDD2BDD /* HeroDebugPlugin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroDebugPlugin.swift; path = "Sources/Debug Plugin/HeroDebugPlugin.swift"; sourceTree = "<group>"; };
+		6C301CD3D511877667FC060A4C00F868 /* HeroProgressRunner.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroProgressRunner.swift; path = Sources/Transition/HeroProgressRunner.swift; sourceTree = "<group>"; };
+		6C301D182746F79EA1EBBAAC676216AB /* HeroTransition+UITabBarControllerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HeroTransition+UITabBarControllerDelegate.swift"; path = "Sources/Transition/HeroTransition+UITabBarControllerDelegate.swift"; sourceTree = "<group>"; };
+		6CDDAB109E6E9B14ACF383083303F643 /* HeroModifier+HeroStringConvertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HeroModifier+HeroStringConvertible.swift"; path = "Sources/HeroModifier+HeroStringConvertible.swift"; sourceTree = "<group>"; };
+		700A87C2BDDEF63C4E131B76FE9E7BFF /* UIView+Hero.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Hero.swift"; path = "Sources/Extensions/UIView+Hero.swift"; sourceTree = "<group>"; };
+		700EA86E9A0419C1270E6966938C783B /* AsyncImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AsyncImageView.swift; path = Spring/AsyncImageView.swift; sourceTree = "<group>"; };
+		70D9F0074CBCB8ACE2377B86D5BDD125 /* HeroContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroContext.swift; path = Sources/HeroContext.swift; sourceTree = "<group>"; };
+		70DA51DCA668DB8D4CBE128B88B6BF48 /* Lexer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Lexer.swift; path = Sources/Parser/Lexer.swift; sourceTree = "<group>"; };
+		72CF6C07BDEA4EB0E05C0ABC17094186 /* HeroTransition+Animate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HeroTransition+Animate.swift"; path = "Sources/Transition/HeroTransition+Animate.swift"; sourceTree = "<group>"; };
+		737E245D095A690385E140A65EC99B02 /* MatchPreprocessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MatchPreprocessor.swift; path = Sources/Preprocessors/MatchPreprocessor.swift; sourceTree = "<group>"; };
+		7685375E12983B72E91381CDBE1D6F93 /* CG+Hero.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CG+Hero.swift"; path = "Sources/Extensions/CG+Hero.swift"; sourceTree = "<group>"; };
+		7BCBE616614CFA2D7E73955BE27B61D6 /* BlurView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BlurView.swift; path = Spring/BlurView.swift; sourceTree = "<group>"; };
+		7C40362364BB02F8770FE992679256FF /* SpringAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpringAnimation.swift; path = Spring/SpringAnimation.swift; sourceTree = "<group>"; };
+		7F6F55E3F02E41FD9D4E4815723ABFBD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		8041E81320BA391D6A5B30F7C5977664 /* DesignableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DesignableView.swift; path = Spring/DesignableView.swift; sourceTree = "<group>"; };
+		80E917AA42D83E60FE40F25FE0C4A0C3 /* HeroModifier+Advanced.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HeroModifier+Advanced.swift"; path = "Sources/HeroModifier+Advanced.swift"; sourceTree = "<group>"; };
+		82633EA8AD47230A46EF7E0FF263B8B7 /* HeroViewPropertyViewContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroViewPropertyViewContext.swift; path = Sources/Animator/HeroViewPropertyViewContext.swift; sourceTree = "<group>"; };
+		830D08129875CF7C3AC5F63C59FD16B4 /* DispatchQueue+Hero.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Hero.swift"; path = "Sources/Extensions/DispatchQueue+Hero.swift"; sourceTree = "<group>"; };
+		85A3BEF37C1FB98C52F41E3E877790F5 /* HeroTransition+CustomTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HeroTransition+CustomTransition.swift"; path = "Sources/Transition/HeroTransition+CustomTransition.swift"; sourceTree = "<group>"; };
+		861AC3650661F4BAD686D44A67B03B68 /* Pods-Azkary-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Azkary-dummy.m"; sourceTree = "<group>"; };
+		881C539B52FCD7351C2370DEF7E369EA /* SpringTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpringTextField.swift; path = Spring/SpringTextField.swift; sourceTree = "<group>"; };
+		88CEA73087E34E155295B880D7C99E0B /* HeroTransition+Complete.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HeroTransition+Complete.swift"; path = "Sources/Transition/HeroTransition+Complete.swift"; sourceTree = "<group>"; };
+		8AD61A42F174224C05A1B3887A3146A9 /* Regex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Regex.swift; path = Sources/Parser/Regex.swift; sourceTree = "<group>"; };
+		8AE3F391173EEFFB8C91F5BA1ACD0311 /* ViewAnimator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ViewAnimator-umbrella.h"; sourceTree = "<group>"; };
+		8D874837F538F72E7AC85D129D1D6A5D /* Pods-Azkary-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Azkary-frameworks.sh"; sourceTree = "<group>"; };
+		9041A559143820B1DF42B243C698BF84 /* KeyboardLayoutConstraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeyboardLayoutConstraint.swift; path = Spring/KeyboardLayoutConstraint.swift; sourceTree = "<group>"; };
+		97B644036B0B301543B33C7F1ACCE53C /* DesignableButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DesignableButton.swift; path = Spring/DesignableButton.swift; sourceTree = "<group>"; };
+		981362477273C923E372468132F3DA8E /* ViewAnimator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ViewAnimator-dummy.m"; sourceTree = "<group>"; };
+		987948B007F6CFF041C1EE435CCD27B8 /* SourcePreprocessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SourcePreprocessor.swift; path = Sources/Preprocessors/SourcePreprocessor.swift; sourceTree = "<group>"; };
+		9CFA3ACFA4683D32A3613FB550FCAFA0 /* ViewAnimator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ViewAnimator-prefix.pch"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A42F74700D32A38031FF947CBACB377C /* Animation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Animation.swift; path = ViewAnimator/Classes/Protocols/Animation.swift; sourceTree = "<group>"; };
+		A4C6D41C20CA1B2F417528568D7645B0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		A5AA9A4E72347C8103DF23ED8D5CFD67 /* HeroModifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroModifier.swift; path = Sources/HeroModifier.swift; sourceTree = "<group>"; };
+		A76921F7329D552AD6FA723972B6337A /* ViewAnimator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ViewAnimator.framework; path = ViewAnimator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A96754CFEA1FB66AFA311EA57625659A /* Parser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Parser.swift; path = Sources/Parser/Parser.swift; sourceTree = "<group>"; };
+		A9AD2CC57DF2AA64749644A2AC2610CF /* SpringLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpringLabel.swift; path = Spring/SpringLabel.swift; sourceTree = "<group>"; };
+		AA440F25F05471EC48E3D11092011CF6 /* AutoTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AutoTextView.swift; path = Spring/AutoTextView.swift; sourceTree = "<group>"; };
+		AACC524D69753A1CFD1CE6337E457379 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreMedia.framework; sourceTree = DEVELOPER_DIR; };
+		AB202786EA939FC72D443F0F7EC3627F /* BasePreprocessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BasePreprocessor.swift; path = Sources/Preprocessors/BasePreprocessor.swift; sourceTree = "<group>"; };
+		ABA133BD53E9F1342EABFC9BB0F4CBE5 /* AnimationType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimationType.swift; path = ViewAnimator/Classes/Models/AnimationType.swift; sourceTree = "<group>"; };
+		AD7FA39CB9C36577E7482D205CEDB64B /* Spring.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Spring.swift; path = Spring/Spring.swift; sourceTree = "<group>"; };
+		AF3675FE6C6EBA639693A36CADDF3714 /* SpringButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpringButton.swift; path = Spring/SpringButton.swift; sourceTree = "<group>"; };
+		B20250A9BB46329158C6D918EC0659F4 /* AsyncButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AsyncButton.swift; path = Spring/AsyncButton.swift; sourceTree = "<group>"; };
+		B227CB498EF754AD27ED96C418B0DBF3 /* ViewAnimator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ViewAnimator.xcconfig; sourceTree = "<group>"; };
+		B467D5D914EC32BF6075671CC0A116B7 /* Pods-Azkary-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Azkary-acknowledgements.plist"; sourceTree = "<group>"; };
+		B7A0AEAA77FA00F5B51900DB406768FD /* Pods-Azkary.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Azkary.modulemap"; sourceTree = "<group>"; };
+		B84ECD6243267716E7117353D66E4980 /* TransitionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionManager.swift; path = Spring/TransitionManager.swift; sourceTree = "<group>"; };
+		B90A2E00975C6AD2A91F9611D861F309 /* SpringImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpringImageView.swift; path = Spring/SpringImageView.swift; sourceTree = "<group>"; };
+		BD0249CB07C2C785CA9995D4F230ED9B /* UnwindSegue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UnwindSegue.swift; path = Spring/UnwindSegue.swift; sourceTree = "<group>"; };
+		BD585C79E72DA49C6EAC5BB6FCC294DB /* DesignableTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DesignableTextField.swift; path = Spring/DesignableTextField.swift; sourceTree = "<group>"; };
+		BE3E25497C9DB2DEE66DBF3B756CA2D6 /* Hero.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Hero.modulemap; sourceTree = "<group>"; };
+		BFCE7BD6489AF2C192386DBDA3FF4C25 /* DesignableTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DesignableTextView.swift; path = Spring/DesignableTextView.swift; sourceTree = "<group>"; };
+		C1A01386529C8BF37DAF638EDB4B81BE /* DesignableTabBarController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DesignableTabBarController.swift; path = Spring/DesignableTabBarController.swift; sourceTree = "<group>"; };
+		C1D9DFBC65662F790F137F5405C621C1 /* HeroStringConvertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroStringConvertible.swift; path = Sources/Parser/HeroStringConvertible.swift; sourceTree = "<group>"; };
+		C31242FFD1D3067842E215AC755F0872 /* CALayer+Hero.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CALayer+Hero.swift"; path = "Sources/Extensions/CALayer+Hero.swift"; sourceTree = "<group>"; };
+		C4DD7AA4CA62F0819A5ADFC8E7DC7436 /* ConditionalPreprocessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConditionalPreprocessor.swift; path = Sources/Preprocessors/ConditionalPreprocessor.swift; sourceTree = "<group>"; };
+		C4E5C1900A554BEB295F43569BEB137F /* Array+HeroModifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Array+HeroModifier.swift"; path = "Sources/Extensions/Array+HeroModifier.swift"; sourceTree = "<group>"; };
+		CA6052EBCC96839BA137F242DC92966E /* Pods-Azkary-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Azkary-Info.plist"; sourceTree = "<group>"; };
+		CACAE6DCA14B45E3A648D4A3BDCA675B /* Spring.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Spring.xcconfig; sourceTree = "<group>"; };
+		CC1184FDC18623153A639E8881A43E5E /* DesignableImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DesignableImageView.swift; path = Spring/DesignableImageView.swift; sourceTree = "<group>"; };
+		CCAE8F775B424E94E6936711E8C0D9A9 /* CascadePreprocessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CascadePreprocessor.swift; path = Sources/Preprocessors/CascadePreprocessor.swift; sourceTree = "<group>"; };
+		CD69BA849C8A598E0CA0585FAE81F418 /* Direction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Direction.swift; path = ViewAnimator/Classes/Models/Direction.swift; sourceTree = "<group>"; };
+		CFE6F23C29341BE3F7AC5F843417F280 /* Pods-Azkary-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Azkary-umbrella.h"; sourceTree = "<group>"; };
+		D7446F07BBCCF6542A5FD5AEBFF3C2D7 /* Pods-Azkary-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Azkary-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E0073115348C61928B0930849E765A06 /* UIColor+HexString.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIColor+HexString.swift"; path = "Sources/Extensions/UIColor+HexString.swift"; sourceTree = "<group>"; };
+		E042B681060A8D44D8054F9BADF6D3A1 /* TransitionZoom.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionZoom.swift; path = Spring/TransitionZoom.swift; sourceTree = "<group>"; };
+		E07AEDCA6950D3394E689C5C344EA1F6 /* HeroCoreAnimationViewContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroCoreAnimationViewContext.swift; path = Sources/Animator/HeroCoreAnimationViewContext.swift; sourceTree = "<group>"; };
+		E4858E6ACBBE38F9336D698EC5334A7D /* SpringTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpringTextView.swift; path = Spring/SpringTextView.swift; sourceTree = "<group>"; };
+		E7358C8B19791E74444E80D27004754A /* LoadingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LoadingView.swift; path = Spring/LoadingView.swift; sourceTree = "<group>"; };
+		EDF0ADE4CD7358702185130C62F91AC1 /* ViewAnimatorConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ViewAnimatorConfig.swift; path = ViewAnimator/Classes/ViewAnimatorConfig.swift; sourceTree = "<group>"; };
+		EF0B50D6D857117139A354254CFB8310 /* Nodes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Nodes.swift; path = Sources/Parser/Nodes.swift; sourceTree = "<group>"; };
+		EF3385C288850E64C7F0C8693093D85A /* DefaultAnimationPreprocessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DefaultAnimationPreprocessor.swift; path = Sources/Preprocessors/DefaultAnimationPreprocessor.swift; sourceTree = "<group>"; };
+		EFF4805DB2F3D6FCA839AA8B3D5BD8B3 /* Spring-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Spring-prefix.pch"; sourceTree = "<group>"; };
+		F1FDDFD6824224DC2958D626B6C76CF9 /* HeroDefaultAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroDefaultAnimator.swift; path = Sources/Animator/HeroDefaultAnimator.swift; sourceTree = "<group>"; };
+		F30C8111592572F777B28A483B021FB0 /* Images.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = SpringApp/Images.xcassets; sourceTree = "<group>"; };
+		F60DD072437AD052A66569FAE98638EC /* UITableView + ViewAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITableView + ViewAnimator.swift"; path = "ViewAnimator/Classes/Extensions/UITableView + ViewAnimator.swift"; sourceTree = "<group>"; };
+		F7CBEFD991F43F01BB777B112B9B8415 /* Hero-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Hero-prefix.pch"; sourceTree = "<group>"; };
+		F9F3C6C146D5877B23CCAD7375AB81B0 /* Spring-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Spring-dummy.m"; sourceTree = "<group>"; };
+		FA51281E4ED3D3756E36E40D5E405A3A /* UIViewController+Hero.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+Hero.swift"; path = "Sources/Extensions/UIViewController+Hero.swift"; sourceTree = "<group>"; };
+		FA82D193356E49BC7EA3C1E5615F0CF9 /* IgnoreSubviewModifiersPreprocessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IgnoreSubviewModifiersPreprocessor.swift; path = Sources/Preprocessors/IgnoreSubviewModifiersPreprocessor.swift; sourceTree = "<group>"; };
+		FAB4C561B1DEE51D66631E5EA0596935 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = Sources/SwiftSupport.swift; sourceTree = "<group>"; };
+		FADE268987F3FB8A65138117AF613BC8 /* HeroTransition+UINavigationControllerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HeroTransition+UINavigationControllerDelegate.swift"; path = "Sources/Transition/HeroTransition+UINavigationControllerDelegate.swift"; sourceTree = "<group>"; };
+		FE64BA87619E18BBF42A1E912E918FA3 /* ViewAnimator-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ViewAnimator-Info.plist"; sourceTree = "<group>"; };
+		FEB73535DB12EA59FC1F3A2AA79D493C /* Spring-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Spring-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		645749F37CA16172B5B9F4FAD42F27C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50F85BD08590CA9B3A7A04C5E94C9993 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		969142981307E3E3CCA09C556AECF93F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED0E23C86B292C335FE79BE942EFB2ED /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9753D40ABC00B850B922E91CC99D2C9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCD1BDD7A5206F43EE5EA0F116BFD7BE /* CoreGraphics.framework in Frameworks */,
+				DD6F354D687662E88A8E9B75ADF0EE95 /* CoreMedia.framework in Frameworks */,
+				37C289CF48713DAB98845988FF35632C /* Foundation.framework in Frameworks */,
+				38297E6B86106DEF51F853B19A64FEFD /* QuartzCore.framework in Frameworks */,
+				1CE44042F73BA78CD14C0B12D60A446E /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2F8CEE48F5E5B43BF343771890BDE66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C72E988C04C3F87D6C0306DF85C4705 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0ED197484761351B6A455977E70492C6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5C1FA6F35D73431CB105260E5A0E5309 /* Spring.modulemap */,
+				CACAE6DCA14B45E3A648D4A3BDCA675B /* Spring.xcconfig */,
+				F9F3C6C146D5877B23CCAD7375AB81B0 /* Spring-dummy.m */,
+				FEB73535DB12EA59FC1F3A2AA79D493C /* Spring-Info.plist */,
+				EFF4805DB2F3D6FCA839AA8B3D5BD8B3 /* Spring-prefix.pch */,
+				15ABCC2B086A1E95292D29327A1A816B /* Spring-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Spring";
+			sourceTree = "<group>";
+		};
+		2744799CCCEA14042139A1339CE9D96D /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				7F6F55E3F02E41FD9D4E4815723ABFBD /* CoreGraphics.framework */,
+				AACC524D69753A1CFD1CE6337E457379 /* CoreMedia.framework */,
+				5A4A29FA4154ED4AF8921F79E1F28488 /* Foundation.framework */,
+				14FB0BC4BCD240F36C82E3E7C5C63AD5 /* QuartzCore.framework */,
+				A4C6D41C20CA1B2F417528568D7645B0 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		3F4997B04E8F0E51C7A18786AA660A9B /* ViewAnimator */ = {
+			isa = PBXGroup;
+			children = (
+				A42F74700D32A38031FF947CBACB377C /* Animation.swift */,
+				ABA133BD53E9F1342EABFC9BB0F4CBE5 /* AnimationType.swift */,
+				CD69BA849C8A598E0CA0585FAE81F418 /* Direction.swift */,
+				2BFB5B725389EE563204A5C625441B0F /* UICollectionView + ViewAnimator.swift */,
+				F60DD072437AD052A66569FAE98638EC /* UITableView + ViewAnimator.swift */,
+				068C081D803B4FEF3165DFE4F88F4749 /* ViewAnimator.swift */,
+				EDF0ADE4CD7358702185130C62F91AC1 /* ViewAnimatorConfig.swift */,
+				CAE60C055606BF1BB32EB8780A8FF4B5 /* Support Files */,
+			);
+			name = ViewAnimator;
+			path = ViewAnimator;
+			sourceTree = "<group>";
+		};
+		4A915B4FAB06F0604E6346F52B369751 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BE3E25497C9DB2DEE66DBF3B756CA2D6 /* Hero.modulemap */,
+				309F9A1F56E4F67EDA7F02BA89936BDF /* Hero.xcconfig */,
+				20347326EA50CCB8BCDF999627220BCB /* Hero-dummy.m */,
+				26B3BF0AC5173CBF5B4A46E770816645 /* Hero-Info.plist */,
+				F7CBEFD991F43F01BB777B112B9B8415 /* Hero-prefix.pch */,
+				3B6232F426797A1B48CFA89E825F7E9B /* Hero-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Hero";
+			sourceTree = "<group>";
+		};
+		52C4F11BC4133851858218125C558D9B /* Pods-Azkary */ = {
+			isa = PBXGroup;
+			children = (
+				B7A0AEAA77FA00F5B51900DB406768FD /* Pods-Azkary.modulemap */,
+				D7446F07BBCCF6542A5FD5AEBFF3C2D7 /* Pods-Azkary-acknowledgements.markdown */,
+				B467D5D914EC32BF6075671CC0A116B7 /* Pods-Azkary-acknowledgements.plist */,
+				861AC3650661F4BAD686D44A67B03B68 /* Pods-Azkary-dummy.m */,
+				8D874837F538F72E7AC85D129D1D6A5D /* Pods-Azkary-frameworks.sh */,
+				CA6052EBCC96839BA137F242DC92966E /* Pods-Azkary-Info.plist */,
+				CFE6F23C29341BE3F7AC5F843417F280 /* Pods-Azkary-umbrella.h */,
+				0189DA19753CB5A9F2BB26AD2FED3140 /* Pods-Azkary.debug.xcconfig */,
+				21B5B26F9C9E0C72D1DF12EA484A7830 /* Pods-Azkary.release.xcconfig */,
+			);
+			name = "Pods-Azkary";
+			path = "Target Support Files/Pods-Azkary";
+			sourceTree = "<group>";
+		};
+		602C115106446B4D9F6575BE30FEF39E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				52C4F11BC4133851858218125C558D9B /* Pods-Azkary */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		6465EFEB1C20A35DE01712C0B60137D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13E778F4B833EE5D7ABE882406A8215E /* Hero.framework */,
+				211175FD6993D3D2B8E9FF76FA60046A /* Pods_Azkary.framework */,
+				3F136A20734AD27CC397572C4E62ADCE /* Spring.framework */,
+				A76921F7329D552AD6FA723972B6337A /* ViewAnimator.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B94D7768568A9992200DB461E8CF687F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2744799CCCEA14042139A1339CE9D96D /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CAE60C055606BF1BB32EB8780A8FF4B5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				38C926C5B364FAD9C0A5E6D51F208771 /* ViewAnimator.modulemap */,
+				B227CB498EF754AD27ED96C418B0DBF3 /* ViewAnimator.xcconfig */,
+				981362477273C923E372468132F3DA8E /* ViewAnimator-dummy.m */,
+				FE64BA87619E18BBF42A1E912E918FA3 /* ViewAnimator-Info.plist */,
+				9CFA3ACFA4683D32A3613FB550FCAFA0 /* ViewAnimator-prefix.pch */,
+				8AE3F391173EEFFB8C91F5BA1ACD0311 /* ViewAnimator-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ViewAnimator";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				B94D7768568A9992200DB461E8CF687F /* Frameworks */,
+				CF669C398F76B04AAAE1C052E4F3936C /* Pods */,
+				6465EFEB1C20A35DE01712C0B60137D3 /* Products */,
+				602C115106446B4D9F6575BE30FEF39E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		CF669C398F76B04AAAE1C052E4F3936C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EB14E2111772783C2FC4F408253D014A /* Hero */,
+				F4F850F0829C317177DBF6422216A0D4 /* Spring */,
+				3F4997B04E8F0E51C7A18786AA660A9B /* ViewAnimator */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EB14E2111772783C2FC4F408253D014A /* Hero */ = {
+			isa = PBXGroup;
+			children = (
+				C4E5C1900A554BEB295F43569BEB137F /* Array+HeroModifier.swift */,
+				AB202786EA939FC72D443F0F7EC3627F /* BasePreprocessor.swift */,
+				C31242FFD1D3067842E215AC755F0872 /* CALayer+Hero.swift */,
+				5C6ADDFAF6AEC0B513B1E7F99CCE2619 /* CAMediaTimingFunction+Hero.swift */,
+				CCAE8F775B424E94E6936711E8C0D9A9 /* CascadePreprocessor.swift */,
+				7685375E12983B72E91381CDBE1D6F93 /* CG+Hero.swift */,
+				C4DD7AA4CA62F0819A5ADFC8E7DC7436 /* ConditionalPreprocessor.swift */,
+				EF3385C288850E64C7F0C8693093D85A /* DefaultAnimationPreprocessor.swift */,
+				830D08129875CF7C3AC5F63C59FD16B4 /* DispatchQueue+Hero.swift */,
+				22CCA223324A5FC97031D391401D4515 /* HeroAnimatorViewContext.swift */,
+				2C2AD917D0545A21BE6D8B807F3C28C9 /* HeroCompatible.swift */,
+				70D9F0074CBCB8ACE2377B86D5BDD125 /* HeroContext.swift */,
+				E07AEDCA6950D3394E689C5C344EA1F6 /* HeroCoreAnimationViewContext.swift */,
+				6B4587E0233ADF56B0A69B1E5EDD2BDD /* HeroDebugPlugin.swift */,
+				3973745F86118362568F23673A66268E /* HeroDebugView.swift */,
+				F1FDDFD6824224DC2958D626B6C76CF9 /* HeroDefaultAnimator.swift */,
+				A5AA9A4E72347C8103DF23ED8D5CFD67 /* HeroModifier.swift */,
+				80E917AA42D83E60FE40F25FE0C4A0C3 /* HeroModifier+Advanced.swift */,
+				6CDDAB109E6E9B14ACF383083303F643 /* HeroModifier+HeroStringConvertible.swift */,
+				5D0D75E2B450A887AE670344B729052C /* HeroPlugin.swift */,
+				6C301CD3D511877667FC060A4C00F868 /* HeroProgressRunner.swift */,
+				C1D9DFBC65662F790F137F5405C621C1 /* HeroStringConvertible.swift */,
+				3BC1F00ABFF996C195C2C1C0446C0E4B /* HeroTargetState.swift */,
+				469333A62B39379E6A0F86F45F4C61A7 /* HeroTransition.swift */,
+				72CF6C07BDEA4EB0E05C0ABC17094186 /* HeroTransition+Animate.swift */,
+				88CEA73087E34E155295B880D7C99E0B /* HeroTransition+Complete.swift */,
+				85A3BEF37C1FB98C52F41E3E877790F5 /* HeroTransition+CustomTransition.swift */,
+				4D0598842946CCE859DF2F6519F545A1 /* HeroTransition+Interactive.swift */,
+				4710FC8E97A58D59094100756305A88B /* HeroTransition+Start.swift */,
+				FADE268987F3FB8A65138117AF613BC8 /* HeroTransition+UINavigationControllerDelegate.swift */,
+				6C301D182746F79EA1EBBAAC676216AB /* HeroTransition+UITabBarControllerDelegate.swift */,
+				6B157273BAAC5950A691275A370D2DF0 /* HeroTransition+UIViewControllerTransitioningDelegate.swift */,
+				2B18765AB4FD7DC49C342AF2A523F287 /* HeroTransitionState.swift */,
+				62B0711B6DDE33CFC31B22A78FCAC29E /* HeroTypes.swift */,
+				55ACAD979EBA39759B8CADCE65674797 /* HeroViewControllerDelegate.swift */,
+				82633EA8AD47230A46EF7E0FF263B8B7 /* HeroViewPropertyViewContext.swift */,
+				FA82D193356E49BC7EA3C1E5615F0CF9 /* IgnoreSubviewModifiersPreprocessor.swift */,
+				70DA51DCA668DB8D4CBE128B88B6BF48 /* Lexer.swift */,
+				737E245D095A690385E140A65EC99B02 /* MatchPreprocessor.swift */,
+				EF0B50D6D857117139A354254CFB8310 /* Nodes.swift */,
+				A96754CFEA1FB66AFA311EA57625659A /* Parser.swift */,
+				8AD61A42F174224C05A1B3887A3146A9 /* Regex.swift */,
+				987948B007F6CFF041C1EE435CCD27B8 /* SourcePreprocessor.swift */,
+				FAB4C561B1DEE51D66631E5EA0596935 /* SwiftSupport.swift */,
+				E0073115348C61928B0930849E765A06 /* UIColor+HexString.swift */,
+				469D6C4D4602E27C29D5B7E56A60B81E /* UIKit+Hero.swift */,
+				700A87C2BDDEF63C4E131B76FE9E7BFF /* UIView+Hero.swift */,
+				FA51281E4ED3D3756E36E40D5E405A3A /* UIViewController+Hero.swift */,
+				4A915B4FAB06F0604E6346F52B369751 /* Support Files */,
+			);
+			name = Hero;
+			path = Hero;
+			sourceTree = "<group>";
+		};
+		F34837B1825CE7956DAD035CEB2BDE5B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F30C8111592572F777B28A483B021FB0 /* Images.xcassets */,
+				3A281D70BE2979B01A5CBC77A478942F /* LoadingView.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		F4F850F0829C317177DBF6422216A0D4 /* Spring */ = {
+			isa = PBXGroup;
+			children = (
+				B20250A9BB46329158C6D918EC0659F4 /* AsyncButton.swift */,
+				700EA86E9A0419C1270E6966938C783B /* AsyncImageView.swift */,
+				AA440F25F05471EC48E3D11092011CF6 /* AutoTextView.swift */,
+				7BCBE616614CFA2D7E73955BE27B61D6 /* BlurView.swift */,
+				97B644036B0B301543B33C7F1ACCE53C /* DesignableButton.swift */,
+				CC1184FDC18623153A639E8881A43E5E /* DesignableImageView.swift */,
+				365DD95BD8E1D331AEFBE4A06555522E /* DesignableLabel.swift */,
+				C1A01386529C8BF37DAF638EDB4B81BE /* DesignableTabBarController.swift */,
+				BD585C79E72DA49C6EAC5BB6FCC294DB /* DesignableTextField.swift */,
+				BFCE7BD6489AF2C192386DBDA3FF4C25 /* DesignableTextView.swift */,
+				8041E81320BA391D6A5B30F7C5977664 /* DesignableView.swift */,
+				0D61E5F523619B74B778720ABF5C357F /* ImageLoader.swift */,
+				9041A559143820B1DF42B243C698BF84 /* KeyboardLayoutConstraint.swift */,
+				E7358C8B19791E74444E80D27004754A /* LoadingView.swift */,
+				169AAB5E6E12E97DF0A802A410CF3FCC /* Misc.swift */,
+				5B18E0B86A1618A1B14DB61B46B53FC4 /* SoundPlayer.swift */,
+				AD7FA39CB9C36577E7482D205CEDB64B /* Spring.swift */,
+				7C40362364BB02F8770FE992679256FF /* SpringAnimation.swift */,
+				AF3675FE6C6EBA639693A36CADDF3714 /* SpringButton.swift */,
+				B90A2E00975C6AD2A91F9611D861F309 /* SpringImageView.swift */,
+				A9AD2CC57DF2AA64749644A2AC2610CF /* SpringLabel.swift */,
+				881C539B52FCD7351C2370DEF7E369EA /* SpringTextField.swift */,
+				E4858E6ACBBE38F9336D698EC5334A7D /* SpringTextView.swift */,
+				57DA5D9F0508608FEE5899A1E21F82FB /* SpringView.swift */,
+				B84ECD6243267716E7117353D66E4980 /* TransitionManager.swift */,
+				E042B681060A8D44D8054F9BADF6D3A1 /* TransitionZoom.swift */,
+				BD0249CB07C2C785CA9995D4F230ED9B /* UnwindSegue.swift */,
+				F34837B1825CE7956DAD035CEB2BDE5B /* Resources */,
+				0ED197484761351B6A455977E70492C6 /* Support Files */,
+			);
+			name = Spring;
+			path = Spring;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		977EC996CB490E364DF9BFBD2669EE60 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28ED22D50E807703BDE53652BDB3BDA0 /* Hero-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C01257361E898E374FB0A6911FB063C7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86E16112E3DA618AA6046E09E11B1FD5 /* ViewAnimator-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D72C6FA9C18EBBB5947BA00EB5B3FC3B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55765FA3526C83F9EAC8A71283051143 /* Spring-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE4752922ACDF38824FD8E5D3B888AAB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B83D6CB69842FB07CA7D692FF61919E /* Pods-Azkary-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4B989D6D5288F6A0181FD37BF2FC38FA /* Pods-Azkary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AFDF764CBD624600CF39482FACE1200 /* Build configuration list for PBXNativeTarget "Pods-Azkary" */;
+			buildPhases = (
+				FE4752922ACDF38824FD8E5D3B888AAB /* Headers */,
+				797885738055FD2F2CE9B9A68F1F0B5F /* Sources */,
+				969142981307E3E3CCA09C556AECF93F /* Frameworks */,
+				7616FC85FCA50FBD7501BB0245364244 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B2C1DE68D6CA67293D6B60C585B01556 /* PBXTargetDependency */,
+				3C71CC6E22E8236F33883D77AC06A9FF /* PBXTargetDependency */,
+				ABB8CD39AB6CF5A84C484935E2934C0E /* PBXTargetDependency */,
+			);
+			name = "Pods-Azkary";
+			productName = "Pods-Azkary";
+			productReference = 211175FD6993D3D2B8E9FF76FA60046A /* Pods_Azkary.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		91BFC2827E7E6E2B51AB2CFF58AC6317 /* ViewAnimator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EFE5199A9D90502DB139AEABA7CBE7B /* Build configuration list for PBXNativeTarget "ViewAnimator" */;
+			buildPhases = (
+				C01257361E898E374FB0A6911FB063C7 /* Headers */,
+				3A823987FFCB5C3726EBB7A32E3B904E /* Sources */,
+				D2F8CEE48F5E5B43BF343771890BDE66 /* Frameworks */,
+				2954910303CBA399A078839A2F6CEC93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ViewAnimator;
+			productName = ViewAnimator;
+			productReference = A76921F7329D552AD6FA723972B6337A /* ViewAnimator.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A062DD8462AB228A88272FF6B09535E9 /* Spring */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D09528C50F366F4ABEFEFEEC9A68896E /* Build configuration list for PBXNativeTarget "Spring" */;
+			buildPhases = (
+				D72C6FA9C18EBBB5947BA00EB5B3FC3B /* Headers */,
+				5C602B0ABD9406EF6EAE9A1F6B42925A /* Sources */,
+				645749F37CA16172B5B9F4FAD42F27C5 /* Frameworks */,
+				6C948503E5CFDEA0EC74C74E3CA45213 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Spring;
+			productName = Spring;
+			productReference = 3F136A20734AD27CC397572C4E62ADCE /* Spring.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B3893AEA4D7DBB9A086E889FC469132D /* Hero */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E8FE3182F7A698B2443CEBCF9A30678 /* Build configuration list for PBXNativeTarget "Hero" */;
+			buildPhases = (
+				977EC996CB490E364DF9BFBD2669EE60 /* Headers */,
+				9F3468E0B453FDC78874FB3004AE6603 /* Sources */,
+				9753D40ABC00B850B922E91CC99D2C9B /* Frameworks */,
+				A5EEE57DDAA76478FBAAE5512E4E4136 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hero;
+			productName = Hero;
+			productReference = 13E778F4B833EE5D7ABE882406A8215E /* Hero.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 6465EFEB1C20A35DE01712C0B60137D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B3893AEA4D7DBB9A086E889FC469132D /* Hero */,
+				4B989D6D5288F6A0181FD37BF2FC38FA /* Pods-Azkary */,
+				A062DD8462AB228A88272FF6B09535E9 /* Spring */,
+				91BFC2827E7E6E2B51AB2CFF58AC6317 /* ViewAnimator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2954910303CBA399A078839A2F6CEC93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C948503E5CFDEA0EC74C74E3CA45213 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E1CED50F44E5D491DCD5003372DBF81 /* Images.xcassets in Resources */,
+				0BA90CA2DDA9471E59A1F48AFBDDB3ED /* LoadingView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7616FC85FCA50FBD7501BB0245364244 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5EEE57DDAA76478FBAAE5512E4E4136 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A823987FFCB5C3726EBB7A32E3B904E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58CDDC315D072611DC4E0E8D7B2B399B /* Animation.swift in Sources */,
+				FB5B2EF00978168F84353DD89B808567 /* AnimationType.swift in Sources */,
+				44A41A19C4EBB3E69F800EF54C82A661 /* Direction.swift in Sources */,
+				2AC30876C833990D744C30FF47B32EE8 /* UICollectionView + ViewAnimator.swift in Sources */,
+				3D24A0293788B6740CA06D127A930F02 /* UITableView + ViewAnimator.swift in Sources */,
+				297F85DE0BF70E0BBCFC55A4EABE3AF7 /* ViewAnimator-dummy.m in Sources */,
+				46935F12196B8113019740EA716549BB /* ViewAnimator.swift in Sources */,
+				BD6DCC1280FBF8802E8256E27E72608D /* ViewAnimatorConfig.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C602B0ABD9406EF6EAE9A1F6B42925A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6F9651ADAC53B92DCAAB44816333C03 /* AsyncButton.swift in Sources */,
+				4641B14031D2FF6603A1AB1AE8A81872 /* AsyncImageView.swift in Sources */,
+				CFA425E34FFEF752EA7CB11A55F08A9E /* AutoTextView.swift in Sources */,
+				93591D9AD5D74959575DAA966898CEEE /* BlurView.swift in Sources */,
+				CC60AF46BE0EB20F50602AD2EDFE953F /* DesignableButton.swift in Sources */,
+				29CE9DBD65A494DB313F2991C90787A0 /* DesignableImageView.swift in Sources */,
+				46E1E5F755E08FAC7FC8BE0BEE146465 /* DesignableLabel.swift in Sources */,
+				E5854E6A53A8B1ABB1312522029212C6 /* DesignableTabBarController.swift in Sources */,
+				A655FA3A985F470092D34931CAA9B1D3 /* DesignableTextField.swift in Sources */,
+				7CEA02BEDE5F0BF8FD0A0290B5F5ED9C /* DesignableTextView.swift in Sources */,
+				1D70037A0B3E4A3DDAAEE179B6ABB071 /* DesignableView.swift in Sources */,
+				C70BBAB83307287049F532A4EB9CCEF1 /* ImageLoader.swift in Sources */,
+				0732637E2D54431D0F2680D9610CD78F /* KeyboardLayoutConstraint.swift in Sources */,
+				E61861448B6C2D9EB4610DF5532BA204 /* LoadingView.swift in Sources */,
+				29B7B49A4477F2FE45143E568C022B23 /* Misc.swift in Sources */,
+				1500B78FC44AAED561BD90AF696705F0 /* SoundPlayer.swift in Sources */,
+				2B12DF1E24A75E8F8EC5556B37FA1F28 /* Spring-dummy.m in Sources */,
+				F44E1B920D6638069D7450CA3773C0FD /* Spring.swift in Sources */,
+				EA658ED3170B393E01430E31E8482A8C /* SpringAnimation.swift in Sources */,
+				1045F5952C216156A75B376D1D604298 /* SpringButton.swift in Sources */,
+				9140B6366B10B74C366EBF342680579E /* SpringImageView.swift in Sources */,
+				5FD7F44CF9CD3B08A62E4E6B6BB68030 /* SpringLabel.swift in Sources */,
+				A6CED5C2055858A15DA2A89283BE0946 /* SpringTextField.swift in Sources */,
+				796621B5A6EBDE53FA99F5555B0F59D7 /* SpringTextView.swift in Sources */,
+				C027055833A0B6578D37DFBBF2AED005 /* SpringView.swift in Sources */,
+				5E7FB82A077840DF34C3953BC806F8F4 /* TransitionManager.swift in Sources */,
+				352C340763B400F31C26159F463D4B64 /* TransitionZoom.swift in Sources */,
+				711025B8E5C65F47055B8BDE2D7143B2 /* UnwindSegue.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		797885738055FD2F2CE9B9A68F1F0B5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E49A797A5DFC4942633D9CC508841AAB /* Pods-Azkary-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F3468E0B453FDC78874FB3004AE6603 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				000FB9EDA233684DCE3C0D776F682440 /* Array+HeroModifier.swift in Sources */,
+				971DE19A2425C011DEA7F234EF9DFB3D /* BasePreprocessor.swift in Sources */,
+				DCEB1D1D97936446FFCC775B87820D76 /* CALayer+Hero.swift in Sources */,
+				596395B6FA3AB7BE5E2986C1057FFB51 /* CAMediaTimingFunction+Hero.swift in Sources */,
+				981E678C694BD6CB6E47750023C41356 /* CascadePreprocessor.swift in Sources */,
+				8675FAF0C389A827D865B4231B097350 /* CG+Hero.swift in Sources */,
+				E14591ACB8E8B67FA53C24B992997EB6 /* ConditionalPreprocessor.swift in Sources */,
+				B4A5070619398ABCE3153716A8B1FD39 /* DefaultAnimationPreprocessor.swift in Sources */,
+				AB333ACA619804B14FDACD4892AD0F33 /* DispatchQueue+Hero.swift in Sources */,
+				BE63C2C8EC7B15BE0848D01ED7125E86 /* Hero-dummy.m in Sources */,
+				AEDEEFE01BDC994BB676D0C6C4EA0B4F /* HeroAnimatorViewContext.swift in Sources */,
+				2F24C371BA4C2962F44ACC8E17667583 /* HeroCompatible.swift in Sources */,
+				BAA6B8A757D1C7D80877064966A6F57D /* HeroContext.swift in Sources */,
+				C6EEAC88D46661939CEC80B9C757D646 /* HeroCoreAnimationViewContext.swift in Sources */,
+				F67D13F1DF0DD6F7271E3B94CCA8AC22 /* HeroDebugPlugin.swift in Sources */,
+				86F6100A3164708D9449C570776E4A53 /* HeroDebugView.swift in Sources */,
+				611B67BEEBA7FB3983E8D9AC3796A551 /* HeroDefaultAnimator.swift in Sources */,
+				8267702DC8728FA8827B0E9F5850D564 /* HeroModifier+Advanced.swift in Sources */,
+				76259741C02A8C73A3015C5D2DA496CA /* HeroModifier+HeroStringConvertible.swift in Sources */,
+				B761609304C53DD165E21D6979C187FA /* HeroModifier.swift in Sources */,
+				4C0109B9064995D017EF8BA9471065BD /* HeroPlugin.swift in Sources */,
+				C404ABC8391D8C5678272EA2B7149664 /* HeroProgressRunner.swift in Sources */,
+				561B43E02C4CC483EEAC28AE2C961D3D /* HeroStringConvertible.swift in Sources */,
+				E259639E8D936042ECD20840FBBD4EC8 /* HeroTargetState.swift in Sources */,
+				0E2025F3049EB290C9C701EB7697FD83 /* HeroTransition+Animate.swift in Sources */,
+				D0F527FECD9CDE6E33868A911863F3A2 /* HeroTransition+Complete.swift in Sources */,
+				0C8C91A946F029E0110E06480F600A47 /* HeroTransition+CustomTransition.swift in Sources */,
+				4DD18CA1B0628DA289B294D2106D55A3 /* HeroTransition+Interactive.swift in Sources */,
+				DC2F67DD3163291EB40DC85B0D8BFD12 /* HeroTransition+Start.swift in Sources */,
+				783190536DC8297B50B399D8250F2032 /* HeroTransition+UINavigationControllerDelegate.swift in Sources */,
+				63D62B669C1B1D76B8FA2AEE51AF2863 /* HeroTransition+UITabBarControllerDelegate.swift in Sources */,
+				0703CE26B7245672B91E0B78E1281E44 /* HeroTransition+UIViewControllerTransitioningDelegate.swift in Sources */,
+				38406719BDA0D1C99B94A33EB1BF2AA1 /* HeroTransition.swift in Sources */,
+				5D561331EDDD8446C2C74304EF534F0B /* HeroTransitionState.swift in Sources */,
+				DB289656E21B490DA80311AD52DBA5C0 /* HeroTypes.swift in Sources */,
+				143BC48EA7B427B9F43FBF38C1209904 /* HeroViewControllerDelegate.swift in Sources */,
+				565C22E5071430F1DB95C884B2CF9D00 /* HeroViewPropertyViewContext.swift in Sources */,
+				E65E75D9FF3AD6FD21154DE84D1AE4FA /* IgnoreSubviewModifiersPreprocessor.swift in Sources */,
+				0A3AA2E0FDAF8A8858240069811996EA /* Lexer.swift in Sources */,
+				7077E7A72EB1E524F2EF25029B712F2F /* MatchPreprocessor.swift in Sources */,
+				9BF3A86AFAFDA9B4C5150324F3DFD0D3 /* Nodes.swift in Sources */,
+				B6AE25C51BED9621BBA67FE397452160 /* Parser.swift in Sources */,
+				F4DD189E36C289688DD2187E0A38D96F /* Regex.swift in Sources */,
+				80538854F50E894E283C87058249C10C /* SourcePreprocessor.swift in Sources */,
+				A7EA1BA19DDD7C4C829D4E8BCB133B5D /* SwiftSupport.swift in Sources */,
+				85908A69CE5A0C54998A6D597BDB062F /* UIColor+HexString.swift in Sources */,
+				E05D3E5962B58A2AE76850E534A24C7B /* UIKit+Hero.swift in Sources */,
+				D99F7D4FA69590F4F4DE4234BC19616A /* UIView+Hero.swift in Sources */,
+				D5B6C3D9C30E853925EDFD6F6B2F735A /* UIViewController+Hero.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3C71CC6E22E8236F33883D77AC06A9FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Spring;
+			target = A062DD8462AB228A88272FF6B09535E9 /* Spring */;
+			targetProxy = 2A76E4E2FE6E085B21025267C663C7EA /* PBXContainerItemProxy */;
+		};
+		ABB8CD39AB6CF5A84C484935E2934C0E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ViewAnimator;
+			target = 91BFC2827E7E6E2B51AB2CFF58AC6317 /* ViewAnimator */;
+			targetProxy = B1172A445734F3C035732BB874DCD72A /* PBXContainerItemProxy */;
+		};
+		B2C1DE68D6CA67293D6B60C585B01556 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Hero;
+			target = B3893AEA4D7DBB9A086E889FC469132D /* Hero */;
+			targetProxy = 08FE6200D96A56C7834532BD5EAC3352 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00DB91C2629677AB5A6E264E0CD142C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B227CB498EF754AD27ED96C418B0DBF3 /* ViewAnimator.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ViewAnimator/ViewAnimator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ViewAnimator/ViewAnimator-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ViewAnimator/ViewAnimator.modulemap";
+				PRODUCT_MODULE_NAME = ViewAnimator;
+				PRODUCT_NAME = ViewAnimator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		00E6217FC7FBAB40CB8EA8115B48C3B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0189DA19753CB5A9F2BB26AD2FED3140 /* Pods-Azkary.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Azkary/Pods-Azkary-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Azkary/Pods-Azkary.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4A91922E714119713DE623E9F04FE5B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B227CB498EF754AD27ED96C418B0DBF3 /* ViewAnimator.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ViewAnimator/ViewAnimator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ViewAnimator/ViewAnimator-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ViewAnimator/ViewAnimator.modulemap";
+				PRODUCT_MODULE_NAME = ViewAnimator;
+				PRODUCT_NAME = ViewAnimator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		57F60B71D09CD0CB1F2ED7BF13A35719 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 309F9A1F56E4F67EDA7F02BA89936BDF /* Hero.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Hero/Hero-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Hero/Hero-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Hero/Hero.modulemap";
+				PRODUCT_MODULE_NAME = Hero;
+				PRODUCT_NAME = Hero;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		788CBD05F190594E176B8CAC890D798E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 309F9A1F56E4F67EDA7F02BA89936BDF /* Hero.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Hero/Hero-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Hero/Hero-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Hero/Hero.modulemap";
+				PRODUCT_MODULE_NAME = Hero;
+				PRODUCT_NAME = Hero;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		914F455A79CDE07CE7727D2BF938FB75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CACAE6DCA14B45E3A648D4A3BDCA675B /* Spring.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Spring/Spring-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Spring/Spring-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Spring/Spring.modulemap";
+				PRODUCT_MODULE_NAME = Spring;
+				PRODUCT_NAME = Spring;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		939F1A8F6BCEB7F9F64D9EEE50CAE014 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		BC12246AEC0754343E3AAB67DA7932E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21B5B26F9C9E0C72D1DF12EA484A7830 /* Pods-Azkary.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Azkary/Pods-Azkary-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Azkary/Pods-Azkary.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CEEB6FB3B5F768E72BE730481D039833 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CACAE6DCA14B45E3A648D4A3BDCA675B /* Spring.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Spring/Spring-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Spring/Spring-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Spring/Spring.modulemap";
+				PRODUCT_MODULE_NAME = Spring;
+				PRODUCT_NAME = Spring;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ECB437504DF805BD96CAABF97400B526 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3AFDF764CBD624600CF39482FACE1200 /* Build configuration list for PBXNativeTarget "Pods-Azkary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00E6217FC7FBAB40CB8EA8115B48C3B4 /* Debug */,
+				BC12246AEC0754343E3AAB67DA7932E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E8FE3182F7A698B2443CEBCF9A30678 /* Build configuration list for PBXNativeTarget "Hero" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				788CBD05F190594E176B8CAC890D798E /* Debug */,
+				57F60B71D09CD0CB1F2ED7BF13A35719 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				939F1A8F6BCEB7F9F64D9EEE50CAE014 /* Debug */,
+				ECB437504DF805BD96CAABF97400B526 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EFE5199A9D90502DB139AEABA7CBE7B /* Build configuration list for PBXNativeTarget "ViewAnimator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00DB91C2629677AB5A6E264E0CD142C3 /* Debug */,
+				4A91922E714119713DE623E9F04FE5B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D09528C50F366F4ABEFEFEEC9A68896E /* Build configuration list for PBXNativeTarget "Spring" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				914F455A79CDE07CE7727D2BF938FB75 /* Debug */,
+				CEEB6FB3B5F768E72BE730481D039833 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

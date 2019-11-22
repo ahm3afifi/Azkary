@@ -1,0 +1,24 @@
+PODS:
+  - Hero (1.5.0)
+  - Spring (1.0.5)
+  - ViewAnimator (2.7.0)
+
+DEPENDENCIES:
+  - Hero
+  - Spring
+  - ViewAnimator
+
+SPEC REPOS:
+  trunk:
+    - Hero
+    - Spring
+    - ViewAnimator
+
+SPEC CHECKSUMS:
+  Hero: b7385b75e7259da62f4f85462f59a5082d66b058
+  Spring: 17901566c8ecf3a1327902b940406c64512f9bb1
+  ViewAnimator: 5af1c6f3b310f012bf081259c43717aa54fbae73
+
+PODFILE CHECKSUM: 8b13a021c04fa691a4c6f7c957b1ae6daffb86d2
+
+COCOAPODS: 1.8.4

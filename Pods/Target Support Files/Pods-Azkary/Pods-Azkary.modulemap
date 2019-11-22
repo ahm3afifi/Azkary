@@ -1,0 +1,6 @@
+framework module Pods_Azkary {
+  umbrella header "Pods-Azkary-umbrella.h"
+
+  export *
+  module * { export * }
+}
